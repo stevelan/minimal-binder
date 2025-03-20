@@ -7,7 +7,7 @@ Create a repository from this template, optionally update environment.yml and ge
 
 Create a new binder URL at [mybinder.org](https://mybinder.org)
 
-Or substitute {REPO_PATH} for the repository owner and name in: 
+Or substitute ```{REPO_PATH}``` for the repository owner and name in: 
 
 ```https://mybinder.org/v2/gh/{REPO_PATH}/main?urlpath=%2Fdoc%2Ftree%2Fnotebooks%2F```
 
