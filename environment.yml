@@ -1,17 +1,10 @@
-name: binder
+name: just_snippy 
 channels:
     - conda-forge
     - bioconda
 dependencies:
-  - python==3.10
-  - bioconda::samtools
-  - bioconda::snpeff==4.3
-  - bioconda::snippy
-  - bioconda::pysam
-  - openjdk=8
-  - numpy
-  - matplotlib
-  - pandas
-  - pip
+  - snippy=4.6
+  - pip 
   - pip:
     - jupyterlab
+
