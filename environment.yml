@@ -8,6 +8,7 @@ dependencies:
   - bioconda::snpeff==4.3
   - bioconda::snippy
   - bioconda::pysam
+  - openjdk=8
   - numpy
   - matplotlib
   - pandas
