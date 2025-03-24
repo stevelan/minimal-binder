@@ -1,9 +1,16 @@
 name: binder
 channels:
-  - conda-forge
-  - bioconda
+    - conda-forge
+    - bioconda
 dependencies:
-  - python=3.12
+  - python==3.10
+  - bioconda::samtools
+  - bioconda::snpeff==4.3
+  - bioconda::snippy
+  - bioconda::pysam
   - numpy
+  - matplotlib
   - pandas
-
+  - pip
+  - pip:
+    - jupyterlab
